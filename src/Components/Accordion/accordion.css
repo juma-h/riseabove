@@ -1,0 +1,69 @@
+.accordion-button {
+  background-color: #081630;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 1s ease;
+  font-family: "Project Font", sans-serif;
+  font-weight: 600;
+}
+
+.accordion-button.collapsed {
+  background-color: #081630;
+  color:#fff;
+}
+
+.accordion-button.collapsed:hover {
+  background-color: #081630;
+}
+
+.accordion-body {
+  padding: 20px;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+  background-color: #fff7f0;
+  overflow: hidden;
+  text-align:left;
+  font-family: "Project Font", sans-serif;
+  font-weight: 400;
+}
+
+/* .accordion-collapse.collapsing .accordion-body {
+  max-height: none;
+} */
+.accordion-collapse.show .accordion-body {
+  max-height: 500px; /* adjust as needed */
+  transition: max-height 0.5s ease;
+}
+
+.accordion-header {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #081630;
+  transition: background-color 0.5s ease;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: break-spaces;
+}
+
+.accordion-header::after {
+  display: none;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color:#081630;
+  box-shadow: none;
+}

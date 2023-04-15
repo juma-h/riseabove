@@ -1,0 +1,59 @@
+.nav-img {
+  margin-left: 1em;
+
+}
+
+.nav-section{
+    font-family: "Project Font", sans-serif;
+    color: #081630 !important;
+    font-size: 1vw;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.navbar-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #fff7f0;
+  padding: 1em;
+}
+
+.navbar-flex ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+.navbar-flex li {
+  margin: 0 10px;
+}
+
+.navbar-flex a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  width: 100vw;
+  height: 8em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+}

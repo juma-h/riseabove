@@ -1,0 +1,14 @@
+.container-fluid{
+    /* border: solid pink; */
+    display: grid;
+    height: auto;
+
+}
+
+/* .container-fluid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+} */

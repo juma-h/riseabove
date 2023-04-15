@@ -1,0 +1,103 @@
+.footer-container {
+  background-color: #081630;
+  height: 100%;
+}
+
+.footer-header {
+  margin-bottom: 0em;
+  color: #fff;
+  font-size: 17px;
+  text-align: left;
+  font-family: "Project Font", sans-serif;
+}
+
+.footer-label {
+  font-family: "Project Font", sans-serif;
+  margin-bottom: 5px;
+}
+
+.footer-sub {
+  margin-top: 1em;
+  text-align: left;
+  color: #f7a81b;
+  font-size: 31px;
+  display: block;
+  font-weight: 500;
+  font-family: "Intro Font 2", sans-serif;
+}
+.submit-link {
+  text-decoration: none;
+
+  background-color: transparent;
+  font-family: "Intro Font", sans-serif;
+  color: #fff7f0;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  position: absolute;
+  left: 100px;
+  margin-top: 40px;
+}
+
+.submit-link:hover {
+  color: #f7a81b;
+}
+
+.submit-div {
+  display: flex;
+  margin-top: 10px;
+  /* border: solid green; */
+}
+
+.submit-circle {
+  background: url("../../Assets//Images-20230412T100529Z-001/Images/Play-Icon_1.png");
+  /* border: solid yellow; */
+  background-repeat: no-repeat;
+  background-size: 40% 60%;
+  /* padding: 5em; */
+  width: 40%;
+  height: 10em;
+
+  position: relative;
+}
+
+.contact-details {
+  color: #fff7f0;
+  font-family: "Project Font", sans-serif;
+  font-size: 16px;
+  font-size: 1.1em;
+  line-height: 1.43;
+}
+
+.col-md-4 i {
+  margin-right: 10px;
+}
+.right-footer {
+  color: #f7a81b;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Intro Font 2", sans-serif;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  padding: 5em;
+  position: relative;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 3px orange;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s;
+}
+
+.circle:hover {
+  transform: rotate(360deg);
+}
+
+

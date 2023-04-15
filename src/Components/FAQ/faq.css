@@ -1,0 +1,31 @@
+.title1-faq {
+  margin-bottom: 0em;
+  color: #e77b24;
+  font-size: 52px;
+  text-align: center;
+  font-family: "Intro Font 2", sans-serif;
+}
+
+.title2-faq {
+  margin-bottom: 0em;
+  color: #081630;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Intro Font 2", sans-serif;
+}
+
+.more-info-faq {
+  margin-top: 1em;
+  text-align: center;
+  color: #081630;
+  font-size: 20px;
+  display: block;
+  font-weight: 500;
+ 
+}
+
+.more-info-faq > a {
+    color: #e77b24;
+    text-decoration: none;
+    font-weight: 500;
+}

@@ -1,0 +1,97 @@
+.what-h2 {
+  margin-top: 0em;
+  margin-bottom: 0.6em;
+  font-family: "Intro Font 2", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #081630;
+  font-size: 80px;
+}
+
+.what-img{
+  height: 500px;
+  width: 500px;
+}
+
+.what-p {
+  margin-bottom: 2em;
+  color: #081630;
+  font-family: "Project Font", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2em;
+  
+}
+
+.container-sm{
+    background: #fff7f0;
+}
+
+.title1{
+  margin-bottom: 0em;
+  color: #081630;
+  font-size: 2.2em;
+  text-align: right;
+  font-family: "Intro Font 2", sans-serif;
+
+}
+
+.title2{
+  margin-bottom: 0em;
+  color: #e77b24;
+  font-size: 50px;
+  text-align: right;
+  font-family: "Intro Font 2", sans-serif;
+}
+.title1left{
+  margin-bottom: 0em;
+  color: #081630;
+  font-size: 2.2em;
+  text-align: left;
+  font-family: "Intro Font 2", sans-serif;
+
+}
+
+.title2left{
+  margin-bottom: 0em;
+  color: #e77b24;
+  font-size: 50px;
+  text-align: left;
+  font-family: "Intro Font 2", sans-serif;
+}
+
+.more-info{
+  margin-top: 1em;
+  text-align: right;
+  color: #081630;
+  font-size: 20px;
+  display:block;
+    word-wrap: break-word;
+
+}
+
+.more-infoleft{
+  margin-top: 1em;
+  text-align: right;
+  color: #081630;
+  font-size: 20px;
+  display:block;
+  word-wrap: break-word;
+
+}
+
+.button-23 {
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #081630;
+  background-color: transparent;
+  height: 3em;
+  border-radius: 30px;
+  width: 30%;
+  float: right;
+  font-weight: 650;
+}
+
